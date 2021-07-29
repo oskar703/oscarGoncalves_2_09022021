@@ -1,0 +1,381 @@
+body {margin:0px 0px 0px 0px;}
+
+* {font-family: 'Raleway', sans-serif;}
+a {text-decoration:none;color:black;}
+
+/* HEADER ************************************************/
+
+header,.header {margin: 20px 40px;}
+
+a {color:#333333;
+  text-decoration: none;}
+
+a:hover {color:red;}
+
+header,.header {display:flex;
+               flex-wrap:wrap;
+               justify-content:space-between;}
+
+.header {flex:1;}
+
+.logo {margin:0px 0px 0px -40px;}
+
+img {width:120px;
+     height:60px;}
+
+.NavLink1 {color:#0065FC ;}
+
+.NavLink3 {font-size:20px;}
+
+/* NAVIGATION **********************************************/
+
+nav {display:flex;
+     justify-content:space-between;
+     align-items: center;}
+
+nav ul {display:flex;}
+
+nav li {padding: 0 20px;/***************************************/
+        line-height:40px;
+        font-size:20px;}
+
+nav li a:hover,nav li a:active { display:block;
+                               margin-top:-1px;
+                               color:#0065fc;
+                               border-top:3px solid blue;}
+
+/* REGISTER ***********************************************/
+
+.register {display:flex;
+          align-items:center;}
+
+.register a {font-weight:bold;
+             color: #0065fc;}
+
+li.register:hover { margin-top:0;
+                   border:none;}
+
+/* SEARCH & FILTER ***************************************/
+
+/*.SearchSection {margin:70px 0px 0px 0px;}...previous*/
+.Search {margin:70px 0px 0px 0px;}/*correction*/
+
+/*.SearchSectionTitle {margin:0px 0px 0px 30px;
+                     padding:0px 0px 10px 0px;}...previous*/
+.SearchTitle {margin:0px 0px 0px 30px;
+                     padding:0px 0px 10px 0px;}/*correction*/
+
+
+/*.SearchSectionparagraph {margin:0px 0px 0px 30px;}...previous*/
+.Searchparagraph {margin:0px 0px 0px 30px;}/*correction*/
+
+
+/* BUTTON */
+.SearchContainer {margin-top:30px;
+                  margin-left:30px;
+                  display:flex;
+                  flex-direction:row;
+                  width:200px;
+                  height:50px;}
+        
+.fa-map-marker-alt {background-color:#dcdcdc;
+                    padding:10px;
+                    border-radius:15px 0px 0px 15px;
+                    font-size:30px;color:black;}
+
+.SearchDescription {height:44px;}
+
+.button {background-color:#0065fc;
+         border: none;
+         color:white;
+         padding: 15px 32px;
+         text-align:center;
+         font-size:16px;
+         cursor:pointer;
+         border-radius:0px 15px 15px 0px;}
+
+/* FILTER */
+
+.FilterTitle {margin:0px 0px 0px 30px;
+              padding:0px 0px 0px 40px;}
+
+.filtres {display:flex;
+         flex-wrap:wrap;
+         margin:20px auto;}
+
+.filtres p {margin:30px 20px 0px 0px;
+            line-height:50px;
+            font-weight:bold;}
+
+.filtres i {height:35px;
+            width:40px;
+            margin-right:20px;
+            padding:15px 5px 0px 5px;
+            text-align:center;
+            background: #f2f2f2;
+            border-radius:30px;
+            background:#DEEBFF}
+
+.filtres ul {display:flex;
+             flex-wrap:wrap;
+             align-items:stretch;}
+
+.filtres li {display:flex;
+            align-items:center;
+            margin:10px;
+            padding-right:20px;
+            border:1px solid #ccc;
+            border-radius:30px;}
+
+li i {color:blue;}
+
+.filtres li:hover {background: #deebff;}
+
+.FilterParagraph {margin:40px 0px 40px 35px;}
+
+.fa-info-circle {font-size:25px;color:grey;}
+
+/* MAIN SECTION **************************************/
+
+a {text-decoration:none;
+   color:black;}
+
+.BlueStar {color:#0065FC;
+           margin:0px 0px 0px 0px;}
+
+.GreyStar {color:grey;
+           margin:0px 0px 0px 0px;}
+
+.section {width:100%;
+         height:700px;
+         display:flex;
+         flex-direction:row-reverse;
+         justify-content:space-around;
+         align-content:center;
+         align-items:center;}
+
+/* ASIDE ****************************************/
+
+aside {width:30%;
+       height:100%;
+       background:#f2f2f2;
+       border-radius:15px;
+       display:flex;
+       flex-direction:column;
+       justify-content:space-around;
+       align-content:center;
+       align-items:center;}
+
+.AsideTitle {margin:30px 0px 0px 0px;
+             width:85%;}
+
+.AsideLogo {margin-left:35%;}
+
+.AsideRoomContainer {display:flex;
+                     flex-direction:row;
+                     width:85%;height:23%;
+                     border-radius:15px;
+                     background:#fffffe;
+                     border:5px solid #ffffff;
+                     box-shadow:0px 5px 5px 0px grey;}
+
+.AsidePicture {width:40%;height:100%;
+               border-radius:10px 0px 0px 10px;
+               object-fit:cover;}
+
+.AsideCaption {margin:0px 0px 0px 10px;
+               background:#ffffff;}
+
+.AsidePictureTitle {margin:0px 0px 0px 0px;
+                    background:#ffffff;}
+
+.AsidePictureParagraph {font-size:14px;}
+
+/* ARTICLE *************************************/
+
+article {width:60%;
+         height:94%;
+         background:#f2f2f2;
+         border-radius:15px;
+         display:flex;
+         flex-direction:row;
+         flex-wrap:wrap;
+         justify-content:space-around;
+         padding:20px 20px 20px 20px;}
+
+#ArticleTitle {width:100%;
+               height:25px;
+               margin:25px 0px 0px 20px;}
+
+.ArticleRoomContainer {width:30%;
+                       height:30%;
+                       background:#fffffe;
+                       border-radius:15px;
+                       border:5px solid #ffffff;
+                       box-shadow:0px 5px 5px 0px grey;}
+
+.ArticlePicture {width:100%;
+                 height:60%;
+                 border-radius:10px 10px 0px 0px;
+                 object-fit:cover;}
+
+.PhotoParagraph {font-size:14px;}
+
+.ArticleSubTitle {width:100%;
+                  height:25px;
+                  margin-left:20px;}
+
+.PhotoTitle {margin:0px 0px 0px 0px;}
+
+.PhotoParagraph {margin:0px 0px 0px 0px;
+                  padding:0px 0px 10px 0px;}
+
+/* ACTIVITES A MARSEILLE ********************************/
+
+/*#ActivitiesSection {width:100%;
+                    height:auto;
+                    display:flex;
+                    flex-direction:row;
+                    justify-content:space-between;
+                    border-radius:15px}...previous*/
+#ActivitiesPart {width:100%;
+                    height:auto;
+                    display:flex;
+                    flex-direction:row;
+                    justify-content:space-between;
+                    border-radius:15px}/*correction*/
+
+#ActivitiesTitle {width:80%;
+                 margin:0px 0px 0px 30px;
+                  padding:50px 0px 20px 0px;}
+
+.FigureVieuxPort {width:22%;
+                 height:450px;
+                 border-radius:15px;
+                 margin:0px 0px 0px 30px;}
+
+.VieuxPortPic {width:100%;
+               height:90%;
+               border-radius:15px 15px 0px 0px;
+               object-fit:cover;}
+
+.VieuxPortCaption {padding:12px;
+                   margin:-5px 0px 0px 0px;
+                   background:white;
+                   border-radius:0px 0px 15px 15px;
+                   box-shadow:0px 5px 5px 0px grey;}
+
+.pocket1 {width:22%;
+          height:450px;}
+
+.FigurePomegues {width:100%;
+                 height:50%;
+                 margin:0px 0px 23px 0px;
+                 border-radius:15px 15px 15px 15px;
+                 box-shadow:0px 5px 5px 0px grey;}
+
+.PomeguesPic {width:100%;
+              height:80%;
+              border-radius:15px 15px 0px 0px;
+              object-fit:cover;}
+
+.PomeguesCaption {padding:10px;
+                 margin:-5px 0px 0px 0px;
+                 background:white;
+                 border-radius:0px 0px 15px 15px;}
+
+.FigureFrioul { width:100%;
+               height:45%;
+               border-radius:15px;
+               margin:-4px 0px 0px 0px;
+               box-shadow:0px 5px 5px 0px grey;}
+
+.FrioulPic {width:100%;
+           height:80%;
+           border-radius:15px 15px 0px 0px;
+           object-fit:cover;}
+
+.FrioulCaption {padding:10px;
+               margin:-5px 0px 0px 0px;
+               background:white;
+               border-radius:0px 0px 15px 15px;}
+
+.FigureCalanques {width:22%;
+                 height:450px;
+                 border-radius:15px;
+                 margin:0px 0px 0px 0px;
+                box-shadow:0px 5px 5px 0px grey;}
+
+.CalanquesPic {width:100%;
+              height:88%;
+              border-radius:15px 15px 0px 0px;
+              object-fit:cover;}
+
+.CalanquesCaption {padding:10px;
+                   margin:-5px 0px 5px 0px;
+                   background:white;
+                   border-radius:0px 0px 15px 15px;}
+
+.pocket2 {width:22%;
+          height:450px;
+          border-radius:15px;
+          margin:0px 30px 0px 0px;}
+
+.FigureNotreDame {width:100%;
+                  height:48%;
+                  border-radius:15px;
+                  margin:0px 0px 22px 0px;
+                  box-shadow:0px 5px 5px 0px grey;}
+
+.NotreDamePic {width:100%;
+               height:80%;
+                border-radius:15px 15px 0px 0px;
+                object-fit:cover;}
+
+.NotreDameCaption {padding:10px;
+                  margin:-5px 0px 0px 0px;
+                  background:white;
+                  border-radius:0px 0px 15px 15px;}
+
+.FigureLongchamp {width:100%;
+                 height:47%;
+                 border-radius:15px;
+                 margin:0px 0px 0px 0px;
+                box-shadow:0px 5px 5px 0px grey;}
+
+.LongchampPic {width:100%;
+              height:80%;
+              border-radius:15px 15px 0px 0px;
+              object-fit:cover;}
+
+.LongchampCaption {padding:10px;
+                  margin:-5px 0px 0px 0px;
+                  background:white;
+                  border-radius:0px 0px 15px 15px;}
+
+/* FOOTER **********************************************/
+
+footer {width:100%;
+        background:#F2F2F2;
+        display:flex;
+        flex-direction:row;
+        padding:0px 0px 0px 0px;
+        margin:100px 0px 0px 0px;}
+
+.List1,.List2,.List3 {width:33%;
+                     height:250px;
+                     border-radius:15px;
+                     margin:0px 0px 20px 0px;}
+
+h3 {margin:40px 0px 0px 40px;}
+
+ul {list-style-type:none;
+    font-size:15px;}
+
+.Item {padding-top:10px;}
+
+.ItemLink {text-decoration:none;
+           color:#000000;}
+
+
+
